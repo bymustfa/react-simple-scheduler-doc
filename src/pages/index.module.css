@@ -4,20 +4,42 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+    padding: 4rem 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+    .heroBanner {
+        padding: 2rem;
+    }
 }
 
 .buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.code {
+    background-color: #3d3d3d;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-family: 'Fira Mono', monospace;
+}
+
+
+.copyButton {
+    background-color: #232323;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    font-family: 'Fira Mono', monospace;
+    cursor: pointer;
 }
